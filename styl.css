@@ -1,0 +1,57 @@
+.conteneur {
+    border: 1px solid black;
+    width: 60%;
+    margin: 0% auto;
+
+}
+
+
+.titre h1{
+	border: 1px solid black;
+	text-align: center;
+	margin: 0% auto;
+}
+
+.titre h3{
+	padding: 10px;
+	word-wrap: break-word;
+	border-bottom: 2px dotted black;
+}
+
+.boutton{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-bottom: 20px;
+}
+
+.boutton .btn{
+	width: 30%;
+	height: 50px;
+}
+
+.boutton .btn-1{
+	background-color: rgba(35, 230, 50, 0.8);
+	border-color: rgba(35, 230, 50, 0.8);
+	border-radius: 30px/60px;
+	cursor: pointer;
+}
+
+.boutton .btn-2{
+	background-color: rgba(230, 35, 50, 0.8);
+	border-color: rgba(230, 35, 50, 0.8);
+	border-radius: 30px/60px;
+	cursor: pointer;
+}
+
+.affichage{
+	border: 2px solid black;
+	height: 90px;
+	display: flex;
+}
+
+.affichage .content {
+	border: 3px solid yellow;
+	margin: 0% auto;
+	width: 60%;
+}
